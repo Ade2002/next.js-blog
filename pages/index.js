@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>blog post</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -13,6 +13,7 @@ export default function Home() {
         <h1 className="title">
           Learn <Link href="/posts/first-post">Home Page</Link>
         </h1>
+        <img src="/images/profile.jpg" alt="ade" />
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
@@ -22,12 +23,12 @@ export default function Home() {
           <Link href="https://nextjs.org/learn" className="card">
             <h3>Documentation &rarr;</h3>
           </Link>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <p>Find in-depth information about Next.js features and API.</p>
 
           <Link href="https://nextjs.org/learn" className="card">
             <h3>Learn &rarr;</h3>
           </Link>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <p>Learn about Next.js in an interactive course with quizzes!</p>
 
           <Link
             href="https://github.com/vercel/next.js/tree/master/examples"
@@ -35,7 +36,7 @@ export default function Home() {
           >
             <h3>Examples &rarr;</h3>
           </Link>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <p>Discover and deploy boilerplate example Next.js projects.</p>
 
           <Link
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -45,7 +46,7 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </Link>
-            <h3>Deploy &rarr;</h3>
+          <h3>Deploy &rarr;</h3>
         </div>
       </main>
 
@@ -53,10 +54,11 @@ export default function Home() {
         <Link
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
-          rel="noopener noreferrer">
-          Powered by 
+          rel="noopener noreferrer"
+        >
+          Powered by
         </Link>
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
+        <img src="/vercel.svg" alt="Vercel" className="logo" />
       </footer>
 
       <style jsx>{`
